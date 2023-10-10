@@ -1,0 +1,165 @@
+.table .table-dark {
+    background-color: #557B83;
+}
+
+.table .table-dark tr th {
+    color: white !important;
+}
+
+.container-fluid {
+    font-family: 'Almarai', sans-serif;
+}
+
+.table td div i {
+    font-size: 20px;
+    margin-left: 20px !important;
+}
+
+.table td div .fa-trash-o {
+    color: #C74B50;
+}
+
+.table td div .fa-pencil-square {
+    color: #534340;
+}
+
+.table td div .fa-trash-o:hover {
+    color: #e22d33;
+}
+
+.table td div .fa-pencil-square:hover {
+    color: #473532;
+}
+
+
+/* ********** dash ***** */
+
+.dashrowp .card-hover {
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease
+}
+
+.dashrowp .card-hover:hover {
+    webkit-transform: translateY(-4px) scale(1.01);
+    -moz-transform: translateY(-4px) scale(1.01);
+    -ms-transform: translateY(-4px) scale(1.01);
+    -o-transform: translateY(-4px) scale(1.01);
+    -webkit-transform: translateY(-4px) scale(1.01);
+    transform: translateY(-4px) scale(1.01);
+    -webkit-box-shadow: 0 14px 24px rgba(62, 57, 107, 0.1);
+    box-shadow: 0 14px 24px rgba(62, 57, 107, 0.1)
+}
+
+.dashrowp .bg-cyan {
+    background-color: #27a9e3!important
+}
+
+a.bg-cyan:focus,
+a.bg-cyan:hover,
+button.bg-cyan:focus,
+button.bg-cyan:hover {
+    background-color: #198bbe!important
+}
+
+.dashrowp .text-center {
+    text-align: center!important
+}
+
+.dashrowp .bg-danger {
+    background-color: #da542e!important
+}
+
+a.bg-danger:focus,
+a.bg-danger:hover,
+button.bg-danger:focus,
+button.bg-danger:hover {
+    background-color: #b54120!important
+}
+
+.dashrowp .box {
+    border-radius: 2px;
+    padding: 10px
+}
+
+.dashrowp .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid transparent;
+    border-radius: 0px
+}
+
+.dashrowp .card>hr {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.dashrowp .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+.dashrowp .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+}
+
+html body .dashrowp .font-light {
+    font-weight: 300
+}
+
+.dashrowp .text-white {
+    color: #fff!important
+}
+
+.dashrowp .bg-warning {
+    background-color: #ffb848!important
+}
+
+a.bg-warning:focus,
+a.bg-warning:hover,
+button.bg-warning:focus,
+button.bg-warning:hover {
+    background-color: #ffa415!important
+}
+
+.dashrowp .bg-success {
+    background-color: #28b779!important
+}
+
+a.bg-success:focus,
+a.bg-success:hover,
+button.bg-success:focus,
+button.bg-success:hover {
+    background-color: #1f8d5d!important
+}
+
+.dashrowp .col-md-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+.dashrowp .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem
+}

@@ -1,0 +1,42 @@
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <ul class="list-unstyled">
+                                            @for ($i=0; $i< 6; $i++)
+                                            <li><a href="{{route('show.Teeth' , $catogre[$i]->id )}}" class="nav-link hvr-grow">{{ $catogre[$i]->name }}</a></li>
+                                            @endfor
+                                            {{--  <li><a href="nese0" class="nav-link hvr-grow">تخـصص أسنـان</a></li>
+                                            <li><a href="leather" class="nav-link hvr-grow">تخـصص جلديـة</a></li>
+                                            <li><a href="nerves" class="nav-link hvr-grow">تخـصص مخ وأعصـاب</a></li>
+                                            <li><a href="bones" class="nav-link hvr-grow">تخـصص عظــام</a></li>
+                                            <li><a href="birth" class="nav-link hvr-grow">تخـصص نساء وتوليد</a></li>
+                                            <li><a href="ear" class="nav-link hvr-grow">تخـصص انف اذن حنجرة</a></li>  --}}
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul class="list-unstyled">
+                                            @for ($i=6; $i< 12; $i++)
+                                            <li><a href="{{route('show.Teeth' , $catogre[$i]->id )}}" class="nav-link hvr-grow">{{ $catogre[$i]->name }}</a></li>
+                                            @endfor
+                                            {{--  <li><a href="psychological" class="nav-link hvr-grow">تخـصص نفسي</a></li>
+                                            <li><a href="children" class="nav-link hvr-grow">تخـصص اطفـال</a></li>
+                                            <li><a href="heart" class="nav-link hvr-grow">تخـصص قلب وأوعية</a></li>
+                                            <li><a href="blood" class="nav-link hvr-grow">تخـصص امراض الدم</a></li>
+                                            <li><a href="internally" class="nav-link hvr-grow">تخـصص باطنة</a></li>
+                                            <li><a href="paths" class="nav-link hvr-grow">تخـصص مسالك بولية</a></li>  --}}
+                                        </ul>
+                                    </div>
+                                    <div class="col-4">
+                                        <ul class="list-unstyled">
+                                            @for ($i=12; $i< 18; $i++)
+                                            <li><a href="{{route('show.Teeth' , $catogre[$i]->id )}}" class="nav-link hvr-grow">{{ $catogre[$i]->name }}</a></li>
+                                            @endfor
+                                            {{--  <li><a href="digestive" class="nav-link hvr-grow">تخـصص جهاز هضمي</a></li>
+                                            <li><a href="general" class="nav-link hvr-grow">تخـصص طب عام</a></li>
+                                            <li><a href="eyes" class="nav-link hvr-grow">تخـصص عيون</a></li>
+                                            <li><a href="physical" class="nav-link hvr-grow">تخـصص علاج طبيعي</a></li>
+                                            <li><a href="audio" class="nav-link hvr-grow">تخـصص سمعيات</a></li>
+                                            <li><a href="surgery" class="nav-link hvr-grow">تخـصص جراحــة عامة </a></li>  --}}
+                                        </ul>
+                                    </div>
+                                </div>
